@@ -39,7 +39,7 @@ function Validate(nameValue, urlValue) {
     }
 
     if(!found) {
-        alert('not match')
+        alert('Please provide a valid web address')
         return false
     }
     return true;
